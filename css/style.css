@@ -1,0 +1,73 @@
+:root {
+  --point-color: #FF6200;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../img/bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* HEADER */
+#header {
+  display: grid;
+  padding: 30px 200px;
+  grid-template-columns: 3fr 5fr 2fr;
+  grid-template-rows: 80px;
+  grid-column-gap: 100px;
+  align-items: center;
+}
+
+#header #logo-container {
+  width: 100%;
+  height: 100%;
+}
+
+#logo-container #logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  font-size: 30px;
+  color: #ffffff;
+}
+#logo span {
+  color: var(--point-color)
+}
+
+/* HEADER > button area */
+#nav-container {
+  width: 100%;
+  height: 100%;
+
+}
+
+#nav-container li {
+  list-style: none;
+  float: left;
+  font-size: 20px;
+  color: #fff;
+}
+
+#icon-container {
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  grid-template-rows: 80px;
+  grid-column-gap: 20px;
+  height: 100%;
+  width: 100%;
+  grid-template: ;
+}
+.nav-btn {
+  appearance: none;
+  border: none;
+  outline: none;
+}
+.fas fa-search {
+  
+}
